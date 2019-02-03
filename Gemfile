@@ -63,3 +63,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "figaro", "~> 1.1"
 
 gem "pg", "~> 1.1"
+
+gem "rspec-rails", "~> 3.8"

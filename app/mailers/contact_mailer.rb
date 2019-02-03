@@ -1,8 +1,7 @@
 class ContactMailer < ApplicationMailer
-  def contact_email(params)
-    name = params[:name]
-    @email = params[:email]
-    @message = params[:message]
+  def contact_email(name, email, message)
+    @email = email
+    @message = message
 
     mail(to: Figaro.env.CONTACT_EMAIL, subject: "#{name} would like to connect!")
   end

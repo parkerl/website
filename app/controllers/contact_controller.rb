@@ -3,7 +3,7 @@ class ContactController < ApplicationController
 
   def create
     if params.include?(:name) && params.include?(:email) && params.include?(:message)
-      ContactMailer.contact_email(params).deliver
+      ContactMailer.contact_email(params[:name], params[:email], params[:message]).deliver
       ContactMailer.thank_you_email(params[:name], params[:email]).deliver
     end
 
