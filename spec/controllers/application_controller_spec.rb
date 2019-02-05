@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-describe ContactController, type: :controller do
+describe ApplicationController, type: :controller do
   it 'should respond with 200' do
     expect(ContactMailer).to receive(:contact_email).and_return(double('ContactMailer', deliver: true))
     expect(ContactMailer).to receive(:thank_you_email).and_return(double('ContactMailer', deliver: true))
