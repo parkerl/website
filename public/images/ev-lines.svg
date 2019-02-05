@@ -1,1 +1,91 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 470.93 613.1"><defs><radialGradient id="a" cx="31.41" cy="600.46" r="14.04" gradientUnits="userSpaceOnUse"><stop offset="0.02" stop-color="#6db2ff" stop-opacity="0.1"/><stop offset="1" stop-color="#46ffaa" stop-opacity="0.4"/></radialGradient><radialGradient id="b" cx="-285.09" cy="64.55" r="14.04" gradientTransform="translate(478.39 155.42) rotate(11.48)" xlink:href="#a"/><radialGradient id="c" cx="-1725.64" cy="228.9" r="9.82" gradientTransform="translate(1393.04 1069.33) rotate(45)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#6db2ff" stop-opacity="0.1"/><stop offset="1" stop-color="#46ffaa" stop-opacity="0.4"/></radialGradient><radialGradient id="d" cx="-1160.23" cy="159.35" r="9.82" xlink:href="#c"/><radialGradient id="e" cx="393.98" cy="88.37" r="8.6" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#c"/><radialGradient id="f" cx="261.7" cy="462.68" r="8.6" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#c"/><linearGradient id="g" x1="20.12" y1="304.79" x2="390.31" y2="304.79" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#6db2ff" stop-opacity="0"/><stop offset="1" stop-color="#46ffaa" stop-opacity="0.4"/></linearGradient><linearGradient id="h" x1="300.01" y1="304.53" x2="233.04" y2="438.47" xlink:href="#g"/><radialGradient id="i" cx="-1418.54" cy="181.42" r="9.82" xlink:href="#c"/><linearGradient id="j" x1="235.52" y1="349.67" x2="89.63" y2="349.19" xlink:href="#g"/><radialGradient id="k" cx="428.66" cy="508.33" r="14.04" xlink:href="#a"/><radialGradient id="l" cx="75.48" cy="281.76" r="8.6" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#c"/></defs><title>ev-lines</title><polygon points="24.01 590.65 26.25 611.94 43.57 599.35 24.01 590.65" style="fill:url(#a)"/><polygon points="24.01 590.65 26.25 611.94 43.57 599.35 24.01 590.65" style="fill:none;stroke:#209d75;stroke-linejoin:round;stroke-width:2.31514986299078px"/><polygon points="180.85 150.83 178.81 172.14 198.29 163.26 180.85 150.83" style="fill:url(#b)"/><polygon points="180.85 150.83 178.81 172.14 198.29 163.26 180.85 150.83" style="fill:none;stroke:#209d75;stroke-linejoin:round;stroke-width:2.31514986299078px"/><circle cx="10.97" cy="10.97" r="9.82" style="fill:url(#c)"/><circle cx="10.97" cy="10.97" r="9.82" style="fill:none;stroke:#209d75;stroke-linejoin:round;stroke-width:2.31514986299078px"/><circle cx="459.96" cy="361.6" r="9.82" style="fill:url(#d)"/><circle cx="459.96" cy="361.6" r="9.82" style="fill:none;stroke:#209d75;stroke-linejoin:round;stroke-width:2.31514986299078px"/><polyline points="393.98 97.56 401.94 92.97 401.94 83.77 393.98 79.18 386.02 83.77 386.02 92.97 393.98 97.56" style="fill:url(#e)"/><polygon points="393.98 97.56 401.94 92.97 401.94 83.77 393.98 79.18 386.02 83.77 386.02 92.97 393.98 97.56" style="fill:none;stroke:#209d75;stroke-linejoin:round;stroke-width:2.31514986299078px"/><polyline points="261.7 471.87 269.67 467.27 269.67 458.08 261.7 453.49 253.74 458.08 253.74 467.27 261.7 471.87" style="fill:url(#f)"/><polygon points="261.7 471.87 269.67 467.27 269.67 458.08 261.7 453.49 253.74 458.08 253.74 467.27 261.7 471.87" style="fill:none;stroke:#209d75;stroke-linejoin:round;stroke-width:2.31514986299078px"/><polyline points="33.86 595.03 390.31 95.44 386.02 86.16 20.12 14.55" style="fill:url(#g)"/><line x1="20.12" y1="14.55" x2="386.02" y2="86.16" style="fill:none;stroke:#209d75;stroke-linejoin:round;stroke-width:2.31514986299078px"/><line x1="390.31" y1="95.44" x2="33.86" y2="595.03" style="fill:none;stroke:#209d75;stroke-linejoin:round;stroke-width:2.31514986299078px"/><polyline points="450.14 366.64 269.67 460.98 258.21 455.5 187.97 166.25" style="fill:url(#h)"/><line x1="187.96" y1="166.25" x2="258.21" y2="455.5" style="fill:none;stroke:#209d75;stroke-linejoin:round;stroke-width:2.31514986299078px"/><line x1="450.14" y1="366.64" x2="269.67" y2="460.98" style="fill:none;stroke:#209d75;stroke-linejoin:round;stroke-width:2.31514986299078px"/><circle cx="261.7" cy="194.56" r="9.82" style="fill:url(#i)"/><circle cx="261.7" cy="194.56" r="9.82" style="fill:none;stroke:#209d75;stroke-linejoin:round;stroke-width:2.31514986299078px"/><polyline points="254.76 201.5 83.51 281.63 421.25 498.52" style="fill:url(#j)"/><polyline points="254.76 201.5 83.51 281.63 421.25 498.52" style="fill:none;stroke:#209d75;stroke-linejoin:round;stroke-width:2.31514986299078px"/><polygon points="421.25 498.52 423.49 519.81 440.81 507.22 421.25 498.52" style="fill:url(#k)"/><polygon points="421.25 498.52 423.49 519.81 440.81 507.22 421.25 498.52" style="fill:none;stroke:#209d75;stroke-linejoin:round;stroke-width:2.31514986299078px"/><polyline points="75.48 290.95 83.44 286.36 83.44 277.16 75.48 272.57 67.52 277.16 67.52 286.36 75.48 290.95" style="fill:url(#l)"/><polygon points="75.48 290.95 83.44 286.36 83.44 277.16 75.48 272.57 67.52 277.16 67.52 286.36 75.48 290.95" style="fill:none;stroke:#209d75;stroke-linejoin:round;stroke-width:2.31514986299078px"/></svg>
+
+<svg width="340px" height="500px" viewBox="0 0 340 500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <linearGradient x1="0%" y1="50%" x2="100%" y2="50%" id="linearGradient-1">
+      <stop stop-color="#6DB2FF" stop-opacity="0" offset="0%"></stop>
+      <stop stop-color="#46FFAA" stop-opacity="0.4" offset="100%"></stop>
+    </linearGradient>
+    <linearGradient x1="71.4391534%" y1="64.1357017%" x2="38.6957934%" y2="100%" id="linearGradient-2">
+      <stop stop-color="#6DB2FF" stop-opacity="0" offset="0%"></stop>
+      <stop stop-color="#5CD4D9" stop-opacity="0.177735916" offset="100%"></stop>
+      <stop stop-color="#55E2CB" stop-opacity="0.246865968" offset="100%"></stop>
+      <stop stop-color="#46FFAA" stop-opacity="0.4" offset="100%"></stop>
+    </linearGradient>
+    <radialGradient cx="-8505.19348%" cy="-16.904277%" fx="-8505.19348%" fy="-16.904277%" r="50%" id="radialGradient-3">
+      <stop stop-color="#6DB2FF" stop-opacity="0.1" offset="0%"></stop>
+      <stop stop-color="#46FFAA" stop-opacity="0.4" offset="100%"></stop>
+    </radialGradient>
+    <linearGradient x1="45.0079943%" y1="49.8855296%" x2="1.81204477%" y2="49.7239243%" id="linearGradient-4">
+      <stop stop-color="#6DB2FF" stop-opacity="0" offset="0%"></stop>
+      <stop stop-color="#46FFAA" stop-opacity="0.4" offset="100%"></stop>
+    </linearGradient>
+    <radialGradient cx="37.8834356%" cy="46.0779709%" fx="37.8834356%" fy="46.0779709%" r="71.7791411%" gradientTransform="translate(0.378834,0.460780),scale(1.000000,0.918741),translate(-0.378834,-0.460780)" id="radialGradient-5">
+      <stop stop-color="#6DB2FF" stop-opacity="0.1" offset="2%"></stop>
+      <stop stop-color="#46FFAA" stop-opacity="0.4" offset="100%"></stop>
+    </radialGradient>
+    <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="54.0201005%" gradientTransform="translate(0.500000,0.500000),scale(1.000000,0.866159),translate(-0.500000,-0.500000)" id="radialGradient-6">
+      <stop stop-color="#6DB2FF" stop-opacity="0.1" offset="0%"></stop>
+      <stop stop-color="#46FFAA" stop-opacity="0.4" offset="100%"></stop>
+    </radialGradient>
+    <radialGradient cx="37.8323108%" cy="46.0779709%" fx="37.8323108%" fy="46.0779709%" r="71.7791411%" gradientTransform="translate(0.378323,0.460780),scale(1.000000,0.918741),translate(-0.378323,-0.460780)" id="radialGradient-7">
+      <stop stop-color="#6DB2FF" stop-opacity="0.1" offset="2%"></stop>
+      <stop stop-color="#46FFAA" stop-opacity="0.4" offset="100%"></stop>
+    </radialGradient>
+    <radialGradient cx="37.712132%" cy="52.1273789%" fx="37.712132%" fy="52.1273789%" r="72.073922%" gradientTransform="translate(0.377121,0.521274),scale(1.000000,0.914125),rotate(11.480000),translate(-0.377121,-0.521274)" id="radialGradient-8">
+      <stop stop-color="#6DB2FF" stop-opacity="0.1" offset="2%"></stop>
+      <stop stop-color="#46FFAA" stop-opacity="0.4" offset="100%"></stop>
+    </radialGradient>
+    <radialGradient cx="50.0076981%" cy="50.0254395%" fx="50.0076981%" fy="50.0254395%" r="50%" id="radialGradient-9">
+      <stop stop-color="#6DB2FF" stop-opacity="0.1" offset="0%"></stop>
+      <stop stop-color="#46FFAA" stop-opacity="0.4" offset="100%"></stop>
+    </radialGradient>
+    <radialGradient cx="-8199.43992%" cy="-979.786151%" fx="-8199.43992%" fy="-979.786151%" r="50%" id="radialGradient-10">
+      <stop stop-color="#6DB2FF" stop-opacity="0.1" offset="0%"></stop>
+      <stop stop-color="#46FFAA" stop-opacity="0.4" offset="100%"></stop>
+    </radialGradient>
+    <radialGradient cx="49.9686127%" cy="50%" fx="49.9686127%" fy="50%" r="53.9861896%" gradientTransform="translate(0.499686,0.500000),scale(1.000000,0.866703),translate(-0.499686,-0.500000)" id="radialGradient-11">
+      <stop stop-color="#6DB2FF" stop-opacity="0.1" offset="0%"></stop>
+      <stop stop-color="#46FFAA" stop-opacity="0.4" offset="100%"></stop>
+    </radialGradient>
+  </defs>
+  <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g id="ev-lines" transform="translate(1.000000, 16.000000)">
+      <polyline id="Path" fill="url(#linearGradient-1)" points="81.5916513 425.03 327.31 74.3324166 324.352694 67.8181278 72.12 17.55"></polyline>
+      <path d="M36.7089844,11.7167969 L319.67,69" id="Path" stroke="#209D75" stroke-width="2.31514986" stroke-linejoin="round"></path>
+      <path d="M323.31,80.44 L72.2929688,431.859375" id="Path" stroke="#209D75" stroke-width="2.31514986" stroke-linejoin="round"></path>
+      <polyline id="Path" fill="url(#linearGradient-2)" points="317.986328 388.609375 201.447266 445.496094 190.550781 438.716797 120.97 151.25"></polyline>
+      <path d="M120.96,151.25 L191.21,440.5" id="Path" stroke="#209D75" stroke-width="2.31514986" stroke-linejoin="round"></path>
+      <path d="M319.02,388 L202.67,445.98" id="Path" stroke="#209D75" stroke-width="2.31514986" stroke-linejoin="round"></path>
+      <g id="Group-3" transform="translate(159.000000, 184.000000)">
+        <circle id="Oval" fill="url(#radialGradient-3)" cx="10.7" cy="10.56" r="9.82"></circle>
+        <circle id="Oval" stroke="#209D75" stroke-width="2.31514986" stroke-linejoin="round" cx="10.7" cy="10.56" r="9.82"></circle>
+      </g>
+      <polyline id="Path" fill="url(#linearGradient-4)" points="187.76 186.5 16.51 266.63 354.25 483.52"></polyline>
+      <polyline id="Path" stroke="#209D75" stroke-width="2.31514986" stroke-linejoin="round" points="160.379471 199.5 16.51 266.680569 300.25 448.52"></polyline>
+      <g id="Group-2" transform="translate(307.000000, 454.000000) rotate(36.000000) translate(-307.000000, -454.000000) translate(297.000000, 443.000000)">
+        <polygon id="Path" fill="url(#radialGradient-5)" points="0.25 0.52 2.49 21.81 19.81 9.22"></polygon>
+        <polygon id="Path" stroke="#209D75" stroke-width="2.31514986" stroke-linejoin="round" points="2.49 21.81 19.81 9.22 0.25 0.52"></polygon>
+      </g>
+      <polyline id="Path" fill="url(#radialGradient-6)" points="8.48 275.95 16.44 271.36 16.44 262.16 8.48 257.57 0.52 262.16 0.52 271.36 8.48 275.95"></polyline>
+      <polygon id="Path" stroke="#209D75" stroke-width="2.31514986" stroke-linejoin="round" points="8.48 275.95 16.44 271.36 16.44 262.16 8.48 257.57 0.52 262.16 0.52 271.36"></polygon>
+      <polygon id="Path" fill="url(#radialGradient-7)" transform="translate(70.780000, 437.645000) rotate(9.000000) translate(-70.780000, -437.645000) " points="61 427 63.24 448.29 80.56 435.7"></polygon>
+      <polygon id="Path" stroke="#209D75" stroke-width="2.31514986" stroke-linejoin="round" transform="translate(71.780000, 437.645000) rotate(8.000000) translate(-71.780000, -437.645000) " points="64.24 448.29 81.56 435.7 62 427"></polygon>
+      <g id="Group-4" transform="translate(122.666016, 145.968750) rotate(12.000000) translate(-122.666016, -145.968750) translate(112.166016, 134.468750)">
+        <polygon id="Path" fill="url(#radialGradient-8)" points="2.85 0.83 0.81 22.14 20.29 13.26"></polygon>
+        <polygon id="Path" stroke="#209D75" stroke-width="2.31514986" stroke-linejoin="round" points="2.85 0.83 0.81 22.14 20.29 13.26"></polygon>
+      </g>
+      <g id="Group-5" transform="translate(17.000000, 0.000000)">
+        <circle id="Oval" fill="url(#radialGradient-9)" cx="9.97" cy="9.97" r="9.82"></circle>
+        <circle id="Oval" stroke="#209D75" stroke-width="2.31514986" stroke-linejoin="round" cx="9.97" cy="9.97" r="9.82"></circle>
+      </g>
+      <g id="Group" transform="translate(317.000000, 373.000000)">
+        <circle id="Oval" fill="url(#radialGradient-10)" cx="9.96" cy="10.6" r="9.82"></circle>
+        <circle id="Oval" stroke="#209D75" stroke-width="2.31514986" stroke-linejoin="round" cx="9.96" cy="10.6" r="9.82"></circle>
+      </g>
+      <polyline id="Path" fill="url(#radialGradient-6)" points="326.98 82.56 334.94 77.97 334.94 68.77 326.98 64.18 319.02 68.77 319.02 77.97 326.98 82.56"></polyline>
+      <polygon id="Path" stroke="#209D75" stroke-width="2.31514986" stroke-linejoin="round" points="326.98 82.56 334.94 77.97 334.94 68.77 326.98 64.18 319.02 68.77 319.02 77.97"></polygon>
+      <polyline id="Path" fill="url(#radialGradient-11)" points="194.7 456.87 202.67 452.27 202.67 443.08 194.7 438.49 186.74 443.08 186.74 452.27 194.7 456.87"></polyline>
+      <polygon id="Path" stroke="#209D75" stroke-width="2.31514986" stroke-linejoin="round" points="194.7 456.87 202.67 452.27 202.67 443.08 194.7 438.49 186.74 443.08 186.74 452.27"></polygon>
+    </g>
+  </g>
+</svg>
