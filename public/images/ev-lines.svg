@@ -1,5 +1,5 @@
 
-<svg width="340px" height="500px" viewBox="0 0 340 500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="339px" height="461px" viewBox="0 0 339 461" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <defs>
     <linearGradient x1="0%" y1="50%" x2="100%" y2="50%" id="linearGradient-1">
       <stop stop-color="#6DB2FF" stop-opacity="0" offset="0%"></stop>
@@ -19,7 +19,7 @@
       <stop stop-color="#6DB2FF" stop-opacity="0" offset="0%"></stop>
       <stop stop-color="#46FFAA" stop-opacity="0.4" offset="100%"></stop>
     </linearGradient>
-    <radialGradient cx="37.8834356%" cy="46.0779709%" fx="37.8834356%" fy="46.0779709%" r="71.7791411%" gradientTransform="translate(0.378834,0.460780),scale(1.000000,0.918741),translate(-0.378834,-0.460780)" id="radialGradient-5">
+    <radialGradient cx="37.8834356%" cy="46.0779733%" fx="37.8834356%" fy="46.0779733%" r="71.7791411%" gradientTransform="translate(0.378834,0.460780),scale(1.000000,0.918741),translate(-0.378834,-0.460780)" id="radialGradient-5">
       <stop stop-color="#6DB2FF" stop-opacity="0.1" offset="2%"></stop>
       <stop stop-color="#46FFAA" stop-opacity="0.4" offset="100%"></stop>
     </radialGradient>
@@ -27,11 +27,11 @@
       <stop stop-color="#6DB2FF" stop-opacity="0.1" offset="0%"></stop>
       <stop stop-color="#46FFAA" stop-opacity="0.4" offset="100%"></stop>
     </radialGradient>
-    <radialGradient cx="37.8323108%" cy="46.0779709%" fx="37.8323108%" fy="46.0779709%" r="71.7791411%" gradientTransform="translate(0.378323,0.460780),scale(1.000000,0.918741),translate(-0.378323,-0.460780)" id="radialGradient-7">
+    <radialGradient cx="37.8323108%" cy="46.0779733%" fx="37.8323108%" fy="46.0779733%" r="71.7791411%" gradientTransform="translate(0.378323,0.460780),scale(1.000000,0.918741),translate(-0.378323,-0.460780)" id="radialGradient-7">
       <stop stop-color="#6DB2FF" stop-opacity="0.1" offset="2%"></stop>
       <stop stop-color="#46FFAA" stop-opacity="0.4" offset="100%"></stop>
     </radialGradient>
-    <radialGradient cx="37.712132%" cy="52.1273789%" fx="37.712132%" fy="52.1273789%" r="72.073922%" gradientTransform="translate(0.377121,0.521274),scale(1.000000,0.914125),rotate(11.480000),translate(-0.377121,-0.521274)" id="radialGradient-8">
+    <radialGradient cx="37.7121356%" cy="52.1273869%" fx="37.7121356%" fy="52.1273869%" r="72.0739225%" gradientTransform="translate(0.377121,0.521274),scale(1.000000,0.914125),rotate(11.480002),translate(-0.377121,-0.521274)" id="radialGradient-8">
       <stop stop-color="#6DB2FF" stop-opacity="0.1" offset="2%"></stop>
       <stop stop-color="#46FFAA" stop-opacity="0.4" offset="100%"></stop>
     </radialGradient>
@@ -49,8 +49,8 @@
     </radialGradient>
   </defs>
   <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-    <g id="ev-lines" transform="translate(1.000000, 16.000000)">
-      <polyline id="Path" fill="url(#linearGradient-1)" points="81.5916513 425.03 327.31 74.3324166 324.352694 67.8181278 72.12 17.55"></polyline>
+    <g id="ev-lines" transform="translate(1.000000, 1.000000)">
+      <polyline id="Path" fill="url(#linearGradient-1)" points="81.5916513 425.03 323.621094 80.28125 318.40625 77.2207031 318.40625 68.8515625 72.12 17.55"></polyline>
       <path d="M36.7089844,11.7167969 L319.67,69" id="Path" stroke="#209D75" stroke-width="2.31514986" stroke-linejoin="round"></path>
       <path d="M323.31,80.44 L72.2929688,431.859375" id="Path" stroke="#209D75" stroke-width="2.31514986" stroke-linejoin="round"></path>
       <polyline id="Path" fill="url(#linearGradient-2)" points="317.986328 388.609375 201.447266 445.496094 190.550781 438.716797 120.97 151.25"></polyline>
@@ -66,6 +66,7 @@
         <polygon id="Path" fill="url(#radialGradient-5)" points="0.25 0.52 2.49 21.81 19.81 9.22"></polygon>
         <polygon id="Path" stroke="#209D75" stroke-width="2.31514986" stroke-linejoin="round" points="2.49 21.81 19.81 9.22 0.25 0.52"></polygon>
       </g>
+      <polyline id="Path" fill="url(#radialGradient-6)" points="8.48 275.95 16.44 271.36 16.44 262.16 8.48 257.57 0.52 262.16 0.52 271.36 8.48 275.95"></polyline>
       <polyline id="Path" fill="url(#radialGradient-6)" points="8.48 275.95 16.44 271.36 16.44 262.16 8.48 257.57 0.52 262.16 0.52 271.36 8.48 275.95"></polyline>
       <polygon id="Path" stroke="#209D75" stroke-width="2.31514986" stroke-linejoin="round" points="8.48 275.95 16.44 271.36 16.44 262.16 8.48 257.57 0.52 262.16 0.52 271.36"></polygon>
       <polygon id="Path" fill="url(#radialGradient-7)" transform="translate(70.780000, 437.645000) rotate(9.000000) translate(-70.780000, -437.645000) " points="61 427 63.24 448.29 80.56 435.7"></polygon>
