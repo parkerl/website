@@ -3,50 +3,29 @@
     display: inline-block;
     font-family: Roboto;
     font-size: 8.0rem;
-    /*font-weight: normal;*/
-    /*font-style: normal;*/
-    /*font-stretch: normal;*/
     line-height: 1.1;
-    /*letter-spacing: normal;*/
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-.section--title, .core-practices--title {
-    /*width: 609px;*/
-    /*height: 73px;*/
+.slogan__line2 {
+    margin-left: 100px;
+}
+
+.slogan__line3 {
+    margin-left: 200px;
+}
+
+.section {
+    padding: 86px 0;
+}
+
+.section__title {
     font-family: Roboto;
     font-size: 4.0rem;
     font-weight: bold;
-    /*font-style: normal;*/
-    /*font-stretch: normal;*/
-    /*line-height: normal;*/
-    /*letter-spacing: normal;*/
     color: var(--health-blue);
-    margin-top: 122px;
 }
 
 
-.ev-services-text {
-    width: 609px;
-    font-family: Muli;
-    font-size: 16px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.25;
-    letter-spacing: normal;
-    color: var(--white);
-}
-.ev-services-list, .core-practices--item {
-    width: 609px;
-    font-family: Roboto;
-    font-size: 20px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1;
-    letter-spacing: normal;
-    color: var(--code-green);
 
-}
