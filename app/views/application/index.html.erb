@@ -5,9 +5,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="stylesheets/w3.css"/>
-  <link rel="stylesheet" href="stylesheets/ev.css"/>
   <link rel="stylesheet" href="stylesheets/colors.css"/>
-  <link rel="stylesheet" href="stylesheets/ev-services.css"/>
+  <link rel="stylesheet" href="stylesheets/ev.css"/>
+  <link rel="stylesheet" href="stylesheets/nav.css"/>
+  <link rel="stylesheet" href="stylesheets/container.css"/>
+  <link rel="stylesheet" href="stylesheets/section.css"/>
+  <link rel="stylesheet" href="stylesheets/slogan.css"/>
+  <link rel="stylesheet" href="stylesheets/core_practices.css"/>
+  <link rel="stylesheet" href="stylesheets/callout.css"/>
+  <link rel="stylesheet" href="stylesheets/values.css"/>
+  <link rel="stylesheet" href="stylesheets/form.css"/>
+  <link rel="stylesheet" href="stylesheets/footer.css"/>
   <link href="https://fonts.googleapis.com/css?family=Muli|Roboto" rel="stylesheet">
 </head>
 <body>
@@ -41,9 +49,8 @@
     </div>
   </div>
 
-  <div style="position: relative;">
-    <img class="w3-hide-small" src="images/ev-lines.svg"
-         style="width: 45rem; position: absolute; top: 35px; left: 575px;"/>
+  <div class="container">
+    <img class="w3-hide-small slogan__image" src="images/ev-lines.svg"/>
     <div class="w3-container section">
       <div class="w3-row">
         <div class="w3-col m7 l7">
@@ -95,50 +102,49 @@
     </div>
   </div>
 
-  <div style="position: relative;">
-    <img class="w3-hide-small" src="images/ev-group.svg"
-         style="position: absolute; width: 30rem; height: 40rem; top: 270px; left: 695px;"/>
+  <div class="container">
+    <img class="w3-hide-small callout__image" src="images/ev-group.svg"/>
     <div class="w3-container callout" id="values">
       <div class="w3-row">
         <div class="w3-col m8 l8">
           <h2 class="callout__title">Our Core Values</h2>
-          <div class="value">
-            <p class="value__title">Agility</p>
-            <p class="value__text">
+          <div>
+            <p class="values__title">Agility</p>
+            <p class="values__text">
               We adhere strongly, but not dogmatically, to the tenants of the Agile Manifesto, Twelve
               Principles of Agile Software, and Five Values of Extreme Programming. We adapt our process to minimize
               ceremony and maximize communication, efficiency and happiness.
             </p>
           </div>
-          <div class="value">
-            <p class="values-title">Pragmatic Idealism</p>
-            <p class="values">
+          <div>
+            <p class="values__title">Pragmatic Idealism</p>
+            <p class="values__text">
               We believe in continually evolving towards a set of ideals and dream
               of all the possibilities they can bring. Ideals define our long term strategies.
               Pragmatism defines our day-to-day tactics. Our ideals
               and business needs are constantly evolving and we adjust accordingly.
             </p>
           </div>
-          <div class="value">
-            <p class="values-title">Problem Solving</p>
-            <p class="values">
+          <div>
+            <p class="values__title">Problem Solving</p>
+            <p class="values__text">
               We make practical (often boring) technology choices. We don’t build science projects just
               because we are smart enough to build them. New technologies should be chosen based on the merits of
               solving
               the problem at hand.
             </p>
           </div>
-          <div class="value">
-            <p class="values-title">Communication</p>
-            <p class="values">
+          <div>
+            <p class="values__title">Communication</p>
+            <p class="values__text">
               We believe that many problems can be addressed through better communication. We do not hoard
               information. We share our process and ideals freely and openly. We strive to be fearlessly
               transparent with ourselves, our team members, and our clients.
             </p>
           </div>
-          <div class="value">
-            <p class="values-title">Humility</p>
-            <p class="values">
+          <div>
+            <p class="values__title">Humility</p>
+            <p class="values__text">
               We check our egos at the door. A codebase is owned by all team members, from the best features,
               and most elegant implementations, to the worst bugs. We make mistakes sometimes, because we’re
               human, but rather than dwell on them we choose to fix and then learn from them.
@@ -149,26 +155,25 @@
     </div>
   </div>
 
-  <div style="position: relative;">
-    <img class="w3-hide-small" src="images/ev-connect.svg"
-         style="height: 68.1rem; position: absolute; top: 44px; left: 772px;"/>
+  <div class="container">
+    <img class="w3-hide-small form__image" src="images/ev-connect.svg"/>
     <div class="w3-container section" id="contact">
       <div class="w3-row">
         <div class="w3-col m8 l8">
           <h2 class="section__title">Connect</h2>
           <form action="/" method="post">
             <div class="form-element">
-              <label class="w3-text-health-blue ev-connect-label w3-padding-16" for="nameForm">Name</label>
+              <label class="w3-text-health-blue w3-padding-16" for="nameForm">Name</label>
               <input class="w3-input w3-section w3-border-0 w3-dark w3-text-white" type="text"
                      placeholder="Name" required name="name" id="nameForm">
             </div>
             <div class="form-element">
-              <label class="w3-text-health-blue ev-connect-label w3-margin-top" for="emailForm">Email</label>
+              <label class="w3-text-health-blue w3-margin-top" for="emailForm">Email</label>
               <input class="w3-input w3-section w3-border-0 w3-dark" type="email" placeholder="Email" required
                      name="Email" id="emailForm">
             </div>
             <div class="form-element">
-              <label class="w3-text-health-blue ev-connect-label" for="messageForm">Message</label>
+              <label class="w3-text-health-blue" for="messageForm">Message</label>
               <textarea class="w3-input w3-section w3-border-0 w3-dark" rows="10" type="text"
                         placeholder="Personal message..." required
                         name="message" id="messageForm"></textarea>
@@ -182,10 +187,10 @@
     </div>
   </div>
 
-  <div class="w3-container" style="color: #1b252d; background-color: #209d75; padding: 64px 0;">
+  <div class="w3-container footer">
     <div class="w3-row">
       <div class="w3-col w3-center">
-        <img class="ev-footer-image" src="images/ev-logo-stacked.svg"/>
+        <img class="footer__image" src="images/ev-logo-stacked.svg"/>
         <p>
           780 Magnolia Street
           <br/>

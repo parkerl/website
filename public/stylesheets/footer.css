@@ -1,0 +1,10 @@
+.footer {
+    color: #1b252d;
+    background-color: #209d75;
+    padding: 64px 0;
+}
+
+.footer__image {
+    width: 120px;
+    height: 120px;
+}

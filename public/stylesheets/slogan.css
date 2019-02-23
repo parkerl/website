@@ -16,15 +16,11 @@
     margin-left: 200px;
 }
 
-.section {
-    padding: 86px 0;
-}
-
-.section__title {
-    font-family: Roboto;
-    font-size: 4.0rem;
-    font-weight: bold;
-    color: var(--health-blue);
+.slogan__image {
+    width: 45rem;
+    position: absolute;
+    top: 35px;
+    left: 575px;
 }
 
 

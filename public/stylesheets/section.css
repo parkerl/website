@@ -1,0 +1,10 @@
+.section {
+    padding: 86px 10px;
+}
+
+.section__title {
+    font-family: Roboto;
+    font-size: 4.0rem;
+    font-weight: bold;
+    color: var(--health-blue);
+}

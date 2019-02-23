@@ -1,0 +1,17 @@
+.callout {
+    background-color: #3c5797;
+    color: #ffffff !important;
+    padding: 6.4rem 4.7rem;
+    font-family: Muli;
+    font-size: 1.6rem;
+}
+
+.callout__title {
+    font-family: Roboto;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.callout__image {
+    position: absolute; width: 30rem; height: 40rem; top: 270px; left: 695px;
+}
