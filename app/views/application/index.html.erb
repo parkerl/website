@@ -161,7 +161,7 @@
       <div class="w3-row">
         <div class="w3-col m8 l8">
           <h2 class="section__title">Connect</h2>
-          <form action="/" method="post">
+          <%= form_tag do %>
             <div class="form-element">
               <label class="w3-text-health-blue w3-padding-16" for="nameForm">Name</label>
               <input class="w3-input w3-section w3-border-0 w3-dark w3-text-white" type="text"
@@ -178,10 +178,8 @@
                         placeholder="Personal message..." required
                         name="message" id="messageForm"></textarea>
             </div>
-            <button class="w3-button w3-code-green w3-text-dark-two" type="submit">
-              SEND MESSAGE
-            </button>
-          </form>
+            <%= invisible_recaptcha_tags text: "SEND MESSAGE", class: "w3-button w3-code-green w3-text-dark-two" %>
+          <% end %>
         </div>
       </div>
     </div>

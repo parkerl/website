@@ -5,7 +5,7 @@ class ApplicationController < ActionController::Base
   end
 
   def create
-    if params.include?(:name) && params.include?(:email) && params.include?(:message)
+    if verify_recaptcha && params.include?(:name) && params.include?(:email) && params.include?(:message)
       ContactMailer.contact_email(params[:name], params[:email], params[:message]).deliver
       ContactMailer.thank_you_email(params[:name], params[:email]).deliver
     end
