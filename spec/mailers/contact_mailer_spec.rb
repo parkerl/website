@@ -2,6 +2,7 @@ require 'rails_helper'
 
 describe ContactMailer, :type => :mailer do
   it 'should send contact email with given email and name' do
+    allow(Figaro.env).to receive(:CONTACT_EMAIL).and_return('someone@example.com')
     mail = described_class.contact_email('bob', 'bob@example.com', 'message').deliver_now
 
     expect(mail.subject).to eq('bob would like to connect!')
