@@ -1,24 +1,11 @@
-# README
+# EarthVectors Website
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Setup
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Clone the repo with `git clone`
+* `rvm install "ruby-2.6.0"`
+* `bundle`
+* `gem install bundler`
+* `rake db:create`
+* Copy `application.yml` from 1Password to `config` folder (see `config/application_sample.yml`)
+* Start up with `rails server`
