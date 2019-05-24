@@ -156,6 +156,25 @@
   </div>
 
   <div class="container">
+    <img class="w3-hide-small callout__image" src="images/ev-group.svg"/>
+    <div class="w3-container callout" id="values">
+      <div class="w3-row">
+        <div class="w3-col m8 l8">
+          <h2 class="callout__title">Our Blog</h2>
+          <div>
+            <% blog_posts.each_with_index do |post, index| %>
+              <div><%= post[:creator] %></div>
+              <div><%= post[:date] %></div>
+              <div><%= post[:link] %></div>
+              <div><%= post[:content] %></div>
+            <% end %>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
     <img class="w3-hide-small form__image" src="images/ev-connect.svg"/>
     <div class="w3-container section" id="contact">
       <div class="w3-row">
