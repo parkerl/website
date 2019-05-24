@@ -8,5 +8,5 @@
 * `gem install bundler`
 * Install Postgres.app
 * `rake db:create`
-* Copy `application.yml` from 1Password to `config` folder (see `config/application_sample.yml`)
+* Copy `application.yml` from 1Password into `config` folder
 * Start up with `rails server`
