@@ -21,34 +21,7 @@
 <body>
 
 <div class="screenwidth">
-  <div class="w3-container nav">
-    <div class="w3-row">
-      <div class="w3-col l4">
-        <a href="#home">
-          <img class="nav__logo" src="images/ev-logo-color.svg" alt="EarthVectors"/>
-        </a>
-      </div>
-      <div class="w3-col l1">
-        &nbsp;
-      </div>
-      <div class="w3-col l1">
-        <div class="nav__menu">
-          <a href="#home" class="nav__item">About</a>
-        </div>
-      </div>
-      <div class="w3-col l1">
-        <div class="nav__menu">
-          <a href="#values" class="nav__item">Values</a>
-        </div>
-      </div>
-      <div class="w3-col l5">
-        <div class="nav__menu">
-          <a href="#contact" class="nav__item">Connect</a>
-        </div>
-      </div>
-    </div>
-  </div>
-
+  <%= render "layouts/nav_bar" %>
   <div class="container">
     <img class="w3-hide-small slogan__image" src="images/ev-lines.svg"/>
     <div class="w3-container section">
@@ -185,18 +158,7 @@
     </div>
   </div>
 
-  <div class="w3-container footer">
-    <div class="w3-row">
-      <div class="w3-col w3-center">
-        <img class="footer__image" src="images/ev-logo-stacked.svg"/>
-        <p>
-          780 Magnolia Street
-          <br/>
-          Denver CO, 80220
-        </p>
-      </div>
-    </div>
-  </div>
+  <%= render "layouts/footer" %>
 </div>
 
 </body>

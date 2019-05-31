@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>EarthVectors</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="stylesheets/w3.css"/>
+  <link rel="stylesheet" href="stylesheets/colors.css"/>
+  <link rel="stylesheet" href="stylesheets/ev.css"/>
+  <link rel="stylesheet" href="stylesheets/nav.css"/>
+  <link rel="stylesheet" href="stylesheets/container.css"/>
+  <link rel="stylesheet" href="stylesheets/section.css"/>
+  <link rel="stylesheet" href="stylesheets/slogan.css"/>
+  <link rel="stylesheet" href="stylesheets/core_practices.css"/>
+  <link rel="stylesheet" href="stylesheets/callout.css"/>
+  <link rel="stylesheet" href="stylesheets/values.css"/>
+  <link rel="stylesheet" href="stylesheets/form.css"/>
+  <link rel="stylesheet" href="stylesheets/footer.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Muli|Roboto" rel="stylesheet">
+</head>
+<body>
+
+<div class="screenwidth">
+  <%= render "layouts/nav_bar" %>
+
+  <div class="container">
+
+    <h2 class="section__title">EarthVectors Blog</h2>
+
+    <% @posts.each do |post| %>
+      <div class="core-practices__item"><%= post[:title] %></div>
+      <p><%= post[:description] %></p>
+      <p><%= post[:date] %></p>
+      <p><%= post[:creator] %></p>
+      <p><%= post[:content] %></p>
+    <% end %>
+  </div>
+
+  <%= render "layouts/footer" %>
+</div>
