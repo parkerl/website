@@ -68,3 +68,7 @@ gem "pg", "~> 1.1"
 gem "rspec-rails", "~> 3.8"
 
 gem "recaptcha", "~> 4.13"
+
+gem "nokogiri"
+
+gem "httparty"
