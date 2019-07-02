@@ -28,11 +28,11 @@
     <h2 class="section__title">EarthVectors Blog</h2>
 
     <% @posts.each do |post| %>
-      <div class="core-practices__item"><%= post[:title] %></div>
-      <p><%= post[:description] %></p>
-      <p><%= post[:date] %></p>
-      <p><%= post[:creator] %></p>
-      <p><%= post[:content] %></p>
+      <h3><%= post["title"] %></h3>
+      <p><%= post["description"] %></p>
+      <p><%= post["date"] %></p>
+      <p><%= post["creator"] %></p>
+      <p><%= post["content"].html_safe %></p>
     <% end %>
   </div>
 

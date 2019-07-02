@@ -3,7 +3,7 @@ class ContentPresenter
     document = Nokogiri::HTML::DocumentFragment.parse(raw_html)
     document_iframes = document.css("iframe")
 
-    return raw_html.html_safe if document_iframes.empty?
+    return raw_html if document_iframes.empty?
 
     document_iframes.each do |iframe|
       response = HTTParty.get(iframe.text)
@@ -17,6 +17,6 @@ class ContentPresenter
       end
     end
 
-    document.to_html.html_safe
+    document.to_html
   end
 end

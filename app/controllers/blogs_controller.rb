@@ -1,7 +1,9 @@
+require "json"
+
 class BlogsController < ApplicationController
   def index
-    @posts = FeedReader.new.items.map do |post|
-      PostPresenter.new.present(post)
-    end
+    blog_posts_json = File.read(Rails.root.join('public', 'blog_posts.json'))
+
+    @posts = JSON.parse(blog_posts_json)
   end
 end
