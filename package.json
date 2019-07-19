@@ -1,5 +1,8 @@
 {
   "name": "website",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "aos": "^3.0.0-beta.6",
+    "owl.carousel": "^2.3.4"
+  }
 }

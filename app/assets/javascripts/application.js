@@ -13,4 +13,7 @@
 //= require jquery
 //= require rails-ujs
 //= require activestorage
+//= require aos/dist/aos
+//= require owl.carousel/dist/owl.carousel
+//= require jquery_plugins/manifest
 //= require_tree .
