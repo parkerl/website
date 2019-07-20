@@ -6,7 +6,10 @@ task fetch_blog_posts: :environment do
     PostPresenter.new.present(post)
   end
 
-  File.open(Rails.root.join('public', 'blog_posts.json'), "wb") do |f|
+  file_path = Rails.root.join('public', 'blog_posts.json')
+  File.delete(file_path) if File.exist?(file_path)
+  File.open(file_path, "wb") do |f|
+    puts "writing new blog posts json file."
     f.write(posts.to_json)
   end
 end
