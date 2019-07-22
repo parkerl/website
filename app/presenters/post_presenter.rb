@@ -2,10 +2,11 @@ class PostPresenter
   def present(post)
     {
       title: post.title,
-      date: post.pubDate,
+      link: post.link,
+      date: post.pubDate&.strftime("%m/%d/%Y"),
       description: post.description,
       creator: post.dc_creator,
-      content: ContentPresenter.new.call(post.content_encoded),
+      content: post.content_encoded.html_safe,
     }
   end
 end
