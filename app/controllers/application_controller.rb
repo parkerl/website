@@ -1,5 +1,8 @@
 class ApplicationController < ActionController::Base
   def index
+    @posts = FeedReader.new.items.map do |post|
+      PostPresenter.new.present(post)
+    end
   end
 
   def create
