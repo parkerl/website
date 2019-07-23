@@ -1,8 +1,12 @@
+.slogan__overaly {
+    background: #302f30;
+}
+
 .slogan {
     background-image: linear-gradient(45deg, var(--code-green), var(--health-blue));
     display: inline-block;
     font-family: Roboto;
-    font-size: 8.0rem;
+    font-size: 7.0rem;
     line-height: 1.1;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -17,10 +21,11 @@
 }
 
 .slogan__image {
-    width: 45rem;
+    width: 38rem;
+    height: 41rem;
     position: absolute;
-    top: 35px;
-    left: 575px;
+    top: -122px;
+    left: 300px;
 }
 
 
