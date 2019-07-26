@@ -28,5 +28,11 @@
     left: 300px;
 }
 
+@media (max-width: 900px) {
+  .slogan__image {
+    display: none;
+  }
+}
+
 
 
