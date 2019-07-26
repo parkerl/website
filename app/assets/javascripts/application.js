@@ -13,6 +13,7 @@
 //= require jquery
 //= require rails-ujs
 //= require activestorage
+//= require turbolinks
 //= require aos/dist/aos
 //= require owl.carousel/dist/owl.carousel
 //= require_tree .
