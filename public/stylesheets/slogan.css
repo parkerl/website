@@ -12,6 +12,13 @@
     -webkit-text-fill-color: transparent;
 }
 
+@media (max-width: 900px) and (orientation: landscape)  {
+    .slogan {
+        font-size: 3.0rem;
+    }
+}
+
+
 .slogan__line2 {
     margin-left: 100px;
 }
