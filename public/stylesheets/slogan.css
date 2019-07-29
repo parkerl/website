@@ -6,7 +6,7 @@
     background-image: linear-gradient(45deg, var(--code-green), var(--health-blue));
     display: inline-block;
     font-family: Roboto;
-    font-size: 7.0rem;
+    font-size: 5.0rem;
     line-height: 1.1;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -18,20 +18,6 @@
 
 .slogan__line3 {
     margin-left: 200px;
-}
-
-.slogan__image {
-    width: 38rem;
-    height: 41rem;
-    position: absolute;
-    top: -122px;
-    left: 300px;
-}
-
-@media (max-width: 900px) {
-  .slogan__image {
-    display: none;
-  }
 }
 
 
