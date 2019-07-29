@@ -91,7 +91,7 @@ h1, h2, h3, h4, h5,
 
 .form-control {
   height: 43px;
-  border-radius: 30px;
+  border-radius: 16px;
   font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
   .form-control:active, .form-control:focus {
     border-color: #46ddb0; }
