@@ -1,6 +1,4 @@
-@media (max-width: 900px) {
-  .callout__image {
-    height: 25%;
-    width: 25%;
-  }
+.callout__image {
+  height: 30%;
+  width: 30%;
 }
