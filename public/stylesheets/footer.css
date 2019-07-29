@@ -1,0 +1,6 @@
+@media (max-width: 900px) {
+  .footer__image {
+    height: 25%;
+    width: 25%;
+  }
+}
