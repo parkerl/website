@@ -46,7 +46,7 @@
               <li><a href="#values-section" class="nav-link">Values</a></li>
               <li><a href="#team-section" class="nav-link">Team</a></li>
               <li><a href="#services-section" class="nav-link">Services</a></li>
-              <li><a href="#blog-section" class="nav-link">Blog</a></li>
+              <li><a href="https://medium.com/earthvectors" target="_blank" class="nav-link">Blog</a></li>
               <li><a href="#contact-section" class="nav-link">Contact</a></li>
             </ul>
           </nav>
@@ -405,41 +405,6 @@
       </div>
     </div>
   </section>
-
-  <section class="site-section" id="blog-section">
-    <div class="container">
-      <div class="row mb-5">
-        <div class="col-12 text-center">
-          <h2 class="section-title mb-3">Our Blog Posts</h2>
-        </div>
-      </div>
-
-      <div class="row">
-        <% @posts.each_with_index do |post, index| %>
-          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-name="blog-post-<%= index + 1 %>">
-            <div class="h-entry">
-              <img src="external/images/img_1.jpg" alt="Image" class="img-fluid">
-              <h2 class="font-size-regular">
-                <a href="<%= post[:link] %>" target="_blank">
-                  <%= post[:title] %>
-                </a>
-              </h2>
-              <div class="meta mb-4"><%= post[:creator] %><span class="mx-2">&bullet;</span>
-                <%= post[:date] %>
-              </div>
-              <p><%= post[:description] %></p>
-              <p>
-                <a href="<%= post[:link] %>" target="_blank">
-                  Continue Reading...
-                </a>
-              </p>
-            </div>
-          </div>
-        <% end %>
-      </div>
-    </div>
-  </section>
-
 
   <section class="site-section bg-light" id="contact-section">
     <div class="container">
