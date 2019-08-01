@@ -2,3 +2,9 @@
   height: 75%;
   width: 75%;
 }
+
+@media (max-width: 900px) and (orientation: landscape)  {
+  .hide__landscape {
+    display: none !important;
+  }
+}
